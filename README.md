@@ -1,4 +1,9 @@
 # postgresql-monitoring
+Dans cet article, nous allons explorer le monitoring de PostgreSQL en abordant les points suivants :
+## 1. logging_collector
+## 2. PgBadger
+## 3. PG_STAT_STATEMENTS
+----------------------------------------------------------------------
 #  1- logging_collector
 Le paramètre **`logging_collector`** dans PostgreSQL est utilisé pour activer la collecte et l'enregistrement des messages de journal dans des fichiers spécifiques plutôt que d'être envoyés simplement à la sortie standard (`stderr`). Ce mécanisme de collecte est un processus en arrière-plan qui redirige les messages de journal vers des fichiers, ce qui facilite la gestion et l'analyse des journaux de PostgreSQL.
 
